@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>لعبة الرياضيات</title>
+    <link rel="stylesheet" href="home work.css" type="text/css">
+</head>
+<body>
+    <h1>لعبة الرياضيات</h1>
+
+    <!-- إضافة حقول للرقمين واختيار العملية -->
+    <label for="number3">player Name </label>
+    <input type="text" id="number3" class="m1"><br><br>
+
+    <label for="number1">Factor </label>
+    <input type="number" id="number1" min="1" max="10" class="m2"><br><br>
+    <label for="number2">Number Of Problem </label>
+    <input type="number" id="number2" min="1" max="10" class="m3"><br><br>
+
+    <label for="operationType" >Opration </label>
+    <select id="operationType" class="m4">
+        <option value="+">Addition</option>
+        <option value="x">Multiply</option>
+    </select><br><br>
+
+    <!-- زر بدء اللعبة -->
+    <button onclick="startGame()" class="m5">Start Game</button>
+    <button onclick="Calculate()" class="m6">Calculate</button>
+
+    <!-- عرض العمليات والنتيجة -->
+    <div id="operationsContainer"></div>
+    <p id="gameResult"></p>
+
+    <script type="text/javascript" src="home work.js"></script>
+    
+        </body>
+</html>

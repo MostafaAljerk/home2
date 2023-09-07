@@ -1,0 +1,30 @@
+.m1{
+    position: relative;
+    left: 70px;
+    width: 250px;
+}
+.m2{
+    position: relative;
+    left: 115px;
+    width: 250px;
+}
+.m3{
+    position: relative;
+    left: 20px;
+    width: 255px;
+}
+.m4{
+    position: relative;
+    left: 90px;
+    width: 260px;
+}
+.m5{
+    position: relative;
+    left: 150px;
+    background-color: salmon;
+}
+.m6{
+    position: relative;
+    left: 150px;
+    background-color: lightgreen;
+}
